@@ -1,6 +1,7 @@
 from django.shortcuts import render,get_object_or_404
 from .models import Books,Article
 from django.http import JsonResponse
+from rest
 
 # Create your views here.
 def detail(request,detail_id):
